@@ -1,0 +1,134 @@
+/* Main layout styles */
+.app-layout {
+  min-height: 100vh;
+}
+
+/* Header styles */
+.app-header {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  height: 65px;
+  background: rgb(232, 239, 243);
+}
+
+.header-logo {
+  height: 50px;
+  margin-right: 20px;
+}
+
+.header-menu {
+  flex: 1;
+  min-width: 0;
+  background-color: transparent;
+  border: none;
+  height: 65px;
+  line-height: 65px;
+}
+
+/* Page toolbar styles */
+.page-toolbar {
+  display: flex;
+  align-items: center;
+  padding: 12px 20px;
+  background: #fff;
+  border-bottom: 1px solid #e8e8e8;
+  gap: 16px;
+}
+
+.page-title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 600;
+  color: #003366;
+}
+
+.page-subtitle {
+  color: #666;
+  font-size: 14px;
+  margin-left: 8px;
+}
+
+/* Content area */
+.page-content {
+  padding: 16px;
+  background: #f4f4f4;
+  min-height: calc(100vh - 65px - 72px - 52px);
+}
+
+/* Table styles */
+.data-table {
+  background: #fff;
+  border-radius: 4px;
+}
+
+.data-table .ant-table-thead > tr > th {
+  background: #f0f0f0;
+  color: #003366;
+  font-weight: 600;
+  border-bottom: 2px solid #003366;
+}
+
+.data-table .ant-table-tbody > tr:hover > td {
+  background: rgba(0, 51, 102, 0.04);
+}
+
+/* Filter row styles */
+.filter-row .ant-input,
+.filter-row .ant-select-selector {
+  border-radius: 2px;
+  font-size: 12px;
+}
+
+/* Sticky header for tables */
+.data-table .ant-table-header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+/* Left sidebar filter panel */
+.filter-panel {
+  background: #fff;
+  padding: 16px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.filter-panel h3 {
+  margin: 0 0 12px 0;
+  color: #003366;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.filter-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.filter-list li {
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  transition: background 0.2s;
+}
+
+.filter-list li:hover {
+  background: rgba(0, 51, 102, 0.05);
+}
+
+.filter-list li.active {
+  background: rgba(0, 51, 102, 0.1);
+  color: #003366;
+  font-weight: 500;
+}
+
+/* Footer styles */
+.app-footer {
+  text-align: center;
+  background: rgb(232, 239, 243);
+  color: #003366;
+  padding: 10px 20px;
+}
