@@ -68,7 +68,7 @@ const WesLog = () => {
       title: 'INS_DTE',
       dataIndex: 'INS_DTE',
       key: 'INS_DTE',
-      width: 150,
+      width: 170,
       fixed: 'left',
       sorter: (a, b) => new Date(a.INS_DTE) - new Date(b.INS_DTE),
       filterDropdown: () => getColumnFilterInput('INS_DTE'),
@@ -77,7 +77,7 @@ const WesLog = () => {
       title: 'SCANNO',
       dataIndex: 'SCANNO',
       key: 'SCANNO',
-      width: 80,
+      width: 90,
       sorter: (a, b) => a.SCANNO - b.SCANNO,
       filterDropdown: () => getColumnFilterInput('SCANNO'),
     },
@@ -85,21 +85,21 @@ const WesLog = () => {
       title: 'SHORT_DESC',
       dataIndex: 'SHORT_DESC',
       key: 'SHORT_DESC',
-      width: 150,
+      width: 160,
       filterDropdown: () => getColumnFilterInput('SHORT_DESC'),
     },
     {
       title: 'MSG',
       dataIndex: 'MSG',
       key: 'MSG',
-      width: 75,
+      width: 70,
       filterDropdown: () => getColumnFilterInput('MSG'),
     },
     {
       title: 'LPN',
       dataIndex: 'LPN',
       key: 'LPN',
-      width: 130,
+      width: 140,
       filterDropdown: () => getColumnFilterInput('LPN'),
     },
     {
@@ -114,21 +114,21 @@ const WesLog = () => {
       title: 'AUDIT_STA',
       dataIndex: 'AUDIT_STA',
       key: 'AUDIT_STA',
-      width: 100,
+      width: 110,
       filterDropdown: () => getColumnFilterInput('AUDIT_STA'),
     },
     {
       title: 'DVT_RESP',
       dataIndex: 'DVT_RESP',
       key: 'DVT_RESP',
-      width: 100,
+      width: 110,
       filterDropdown: () => getColumnFilterInput('DVT_RESP'),
     },
     {
       title: 'PE',
       dataIndex: 'PE',
       key: 'PE',
-      width: 60,
+      width: 55,
       filterDropdown: () => getColumnFilterInput('PE'),
     },
     {
@@ -142,7 +142,7 @@ const WesLog = () => {
       title: 'WGT',
       dataIndex: 'WGT',
       key: 'WGT',
-      width: 70,
+      width: 65,
       sorter: (a, b) => a.WGT - b.WGT,
       filterDropdown: () => getColumnFilterInput('WGT'),
     },
@@ -157,7 +157,7 @@ const WesLog = () => {
       title: 'SEQNO',
       dataIndex: 'SEQNO',
       key: 'SEQNO',
-      width: 80,
+      width: 85,
       sorter: (a, b) => a.SEQNO - b.SEQNO,
       filterDropdown: () => getColumnFilterInput('SEQNO'),
     },
@@ -165,21 +165,21 @@ const WesLog = () => {
       title: 'PLC_RESP',
       dataIndex: 'PLC_RESP',
       key: 'PLC_RESP',
-      width: 100,
+      width: 110,
       filterDropdown: () => getColumnFilterInput('PLC_RESP'),
     },
     {
       title: 'WMS_RESP',
       dataIndex: 'WMS_RESP',
       key: 'WMS_RESP',
-      width: 100,
+      width: 115,
       filterDropdown: () => getColumnFilterInput('WMS_RESP'),
     },
     {
       title: 'PTL_RESP',
       dataIndex: 'PTL_RESP',
       key: 'PTL_RESP',
-      width: 100,
+      width: 110,
       filterDropdown: () => getColumnFilterInput('PTL_RESP'),
     },
     {
@@ -193,14 +193,14 @@ const WesLog = () => {
       title: 'PTR_RESP',
       dataIndex: 'PTR_RESP',
       key: 'PTR_RESP',
-      width: 100,
+      width: 110,
       filterDropdown: () => getColumnFilterInput('PTR_RESP'),
     },
     {
       title: 'GRP',
       dataIndex: 'GRP',
       key: 'GRP',
-      width: 100,
+      width: 70,
       filterDropdown: () => getColumnFilterInput('GRP'),
     },
   ];
@@ -299,7 +299,7 @@ const WesLog = () => {
             dataSource={filteredData}
             loading={loading}
             size="small"
-            scroll={{ x: 1800, y: 'calc(100vh - 300px)' }}
+            scroll={{ x: 2100, y: 'calc(100vh - 300px)' }}
             sticky
             pagination={{
               pageSize: 50,
