@@ -9,6 +9,7 @@ import {
   FileTextOutlined,
   AppstoreOutlined,
 } from '@ant-design/icons';
+import logo from '../assets/TD_SYNNEX_logo_file.png';
 
 const { Header } = Layout;
 
@@ -76,15 +77,7 @@ const AppNavigation = () => {
   return (
     <Header className="app-header">
       <div style={{ display: 'flex', alignItems: 'center', width: '100%' }}>
-        <div style={{
-          marginRight: '20px',
-          fontWeight: 'bold',
-          fontSize: '18px',
-          color: '#003366',
-          whiteSpace: 'nowrap'
-        }}>
-          WCS Insight
-        </div>
+        <img src={logo} alt="TD SYNNEX Logo" style={{ height: '65px', marginRight: '20px' }} />
         <Menu
           theme="light"
           mode="horizontal"
