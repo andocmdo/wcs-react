@@ -75,7 +75,7 @@
 }
 
 .data-table .ant-table-tbody > tr:hover > td {
-  background: rgba(0, 51, 102, 0.04);
+  background: #f5f7f9 !important;
 }
 
 /* Filter row styles */
