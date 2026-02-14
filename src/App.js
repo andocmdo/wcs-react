@@ -34,7 +34,7 @@ function App() {
 
           <Footer className="app-footer">
             <Text style={{ color: '#003366' }}>
-              &copy; 2025 Shyft Global Services. All rights reserved.
+              &copy; 2026 TD Synnex. All rights reserved.
             </Text>
           </Footer>
         </Layout>
